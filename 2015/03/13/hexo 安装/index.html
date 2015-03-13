@@ -96,17 +96,22 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">Contents</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-前期准备，包括git，nodejs，github账号，ssh设置等，自行百度，谷歌。"><span class="toc-number">1.</span> <span class="toc-text">1.前期准备，包括git，nodejs，github账号，ssh设置等，自行百度，谷歌。</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-安装hexo，这个步骤有条件的同学最好翻墙，我装的时候各种下不下来，一翻就ok。"><span class="toc-number">2.</span> <span class="toc-text">2.安装hexo，这个步骤有条件的同学最好翻墙，我装的时候各种下不下来，一翻就ok。</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-正式步骤开始咯，首先，新建一个文件夹，我取名为blog"><span class="toc-number">3.</span> <span class="toc-text">3.正式步骤开始咯，首先，新建一个文件夹，我取名为blog</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-进入blog，右键，gitbash，分别执行命令hexo_init_，npm_install,hexo_g"><span class="toc-number">4.</span> <span class="toc-text">4.进入blog，右键，gitbash，分别执行命令hexo init ，npm install,hexo g</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-修改_config-yml文件（hexo3-0的和以前的版本有所不同，注意type为git）"><span class="toc-number">5.</span> <span class="toc-text">5.修改_config.yml文件（hexo3.0的和以前的版本有所不同，注意type为git）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Deployment"><span class="toc-number">6.</span> <span class="toc-text">Deployment</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Docs:_http://hexo-io/docs/deployment-html"><span class="toc-number">6.1.</span> <span class="toc-text">Docs: http://hexo.io/docs/deployment.html</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#6-npm_install_hexo-deployer-git_-save"><span class="toc-number">7.</span> <span class="toc-text">6.npm install hexo-deployer-git --save</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#7-hexo_d_部署到github上。"><span class="toc-number">8.</span> <span class="toc-text">7.hexo d 部署到github上。</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#8-可以更换主题_主题链接：http://hexo-io/themes/"><span class="toc-number">9.</span> <span class="toc-text">8.可以更换主题 主题链接：http://hexo.io/themes/</span></a></li></ol>
+			
 		
 		</div>
 		
 		<p>花了两个小时，才搭建成功，作为一名自称混迹IT圈的人来说，真是够了。好吧，记录一下搭建过程，以便让大家更快上手。</p>
-<h1 id="1-前期准备，包括git，nodejs，github账号，ssh设置等，自行百度，谷歌。">1.前期准备，包括git，nodejs，github账号，ssh设置等，自行百度，谷歌。</h1><h1 id="2-安装hexo，这个步骤有条件的同学最好翻墙，我装的时候各种下不下来，一翻就ok。">2.安装hexo，这个步骤有条件的同学最好翻墙，我装的时候各种下不下来，一翻就ok。</h1><h1 id="3-正式步骤开始咯，首先，新建一个文件夹，我取名为blog">3.正式步骤开始咯，首先，新建一个文件夹，我取名为blog</h1><h1 id="4-进入blog，右键，gitbash，分别执行命令hexo_init_，npm_install,hexo_g">4.进入blog，右键，gitbash，分别执行命令<code>hexo init</code> ，<code>npm install</code>,<code>hexo g</code></h1><h1 id="5-修改_config-yml文件（hexo3-0的和以前的版本有所不同，注意type为git）">5.修改_config.yml文件（hexo3.0的和以前的版本有所不同，注意type为git）</h1><p>```</p>
-<h1 id="Deployment">Deployment</h1><h2 id="Docs:_http://hexo-io/docs/deployment-html">Docs: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">http://hexo.io/docs/deployment.html</a></h2><p>deploy:<br>  type: git<br>  repository: git@github.com:hellodcj/hellodcj.github.io.git<br>  branch: master<br>``` #</p>
-<h1 id="6-npm_install_hexo-deployer-git_-save">6.<code>npm install hexo-deployer-git --save</code></h1><h1 id="7-hexo_d_部署到github上。">7.<code>hexo d</code> 部署到github上。</h1><h1 id="8-可以更换主题_主题链接：http://hexo-io/themes/">8.可以更换主题 主题链接：<a href="http://hexo.io/themes/" target="_blank" rel="external">http://hexo.io/themes/</a></h1>  
+<p>1.前期准备，包括git，nodejs，github账号，ssh设置等，自行百度，谷歌。<br>2.安装hexo，这个步骤有条件的同学最好翻墙，我装的时候各种下不下来，一翻就ok。<br>3.正式步骤开始咯，首先，新建一个文件夹，我取名为blog<br>4.进入blog，右键，gitbash，分别执行命令<code>hexo init</code> ，<code>npm install</code>,<code>hexo g</code><br>5.修改_config.yml文件（hexo3.0的和以前的版本有所不同，注意type为git）<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## <span class="string">Docs:</span> <span class="string">http:</span><span class="comment">//hexo.io/docs/deployment.html</span></span><br><span class="line"><span class="string">deploy:</span></span><br><span class="line"><span class="label">  type:</span> git</span><br><span class="line"><span class="label">  repository:</span> git<span class="annotation">@github</span>.<span class="string">com:</span>hellodcj/hellodcj.github.io.git</span><br><span class="line"><span class="label">  branch:</span> master</span><br></pre></td></tr></table></figure></p>
+<p>6.<code>npm install hexo-deployer-git --save</code><br>7.<code>hexo d</code> 部署到github上。<br>8.可以更换主题 主题链接：<a href="http://hexo.io/themes/" target="_blank" rel="external">http://hexo.io/themes/</a></p>
+  
 	</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/软件安装/">软件安装</a>
+</div>
 
 
 </div>
@@ -134,7 +139,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">Contents</strong>
  
- <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-前期准备，包括git，nodejs，github账号，ssh设置等，自行百度，谷歌。"><span class="toc-number">1.</span> <span class="toc-text">1.前期准备，包括git，nodejs，github账号，ssh设置等，自行百度，谷歌。</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-安装hexo，这个步骤有条件的同学最好翻墙，我装的时候各种下不下来，一翻就ok。"><span class="toc-number">2.</span> <span class="toc-text">2.安装hexo，这个步骤有条件的同学最好翻墙，我装的时候各种下不下来，一翻就ok。</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-正式步骤开始咯，首先，新建一个文件夹，我取名为blog"><span class="toc-number">3.</span> <span class="toc-text">3.正式步骤开始咯，首先，新建一个文件夹，我取名为blog</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-进入blog，右键，gitbash，分别执行命令hexo_init_，npm_install,hexo_g"><span class="toc-number">4.</span> <span class="toc-text">4.进入blog，右键，gitbash，分别执行命令hexo init ，npm install,hexo g</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-修改_config-yml文件（hexo3-0的和以前的版本有所不同，注意type为git）"><span class="toc-number">5.</span> <span class="toc-text">5.修改_config.yml文件（hexo3.0的和以前的版本有所不同，注意type为git）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Deployment"><span class="toc-number">6.</span> <span class="toc-text">Deployment</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Docs:_http://hexo-io/docs/deployment-html"><span class="toc-number">6.1.</span> <span class="toc-text">Docs: http://hexo.io/docs/deployment.html</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#6-npm_install_hexo-deployer-git_-save"><span class="toc-number">7.</span> <span class="toc-text">6.npm install hexo-deployer-git --save</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#7-hexo_d_部署到github上。"><span class="toc-number">8.</span> <span class="toc-text">7.hexo d 部署到github上。</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#8-可以更换主题_主题链接：http://hexo-io/themes/"><span class="toc-number">9.</span> <span class="toc-text">8.可以更换主题 主题链接：http://hexo.io/themes/</span></a></li></ol>
+ 
  
   </div>
 
@@ -143,27 +148,17 @@
 <aside class="clearfix">
 
   
+<div class="categorieslist">
+	<p class="asidetitle">Categories</p>
+		<ul>
+		
+			<li><a href="/categories/软件安装/" title="软件安装">软件安装<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
 
   
-
-  <div class="linkslist">
-  <p class="asidetitle">Links</p>
-    <ul>
-        
-          <li>
-            
-            	<a href="https://coderq.com" target="_blank" title="一个面向程序员交流分享的新一代社区">码农圈</a>
-            
-          </li>
-        
-          <li>
-            
-            	<a href="http://wuchong.me" target="_blank" title="Jark&#39;s Blog">Jark&#39;s Blog</a>
-            
-          </li>
-        
-    </ul>
-</div>
 
   
 
